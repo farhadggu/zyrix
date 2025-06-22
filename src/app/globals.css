@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-t-1: #fff9e6;
+  --color-primary-t-2: #fff3cd;
+  --color-primary-t-3: #ffecb5;
+  --color-primary-t-4: #ffe69c;
+  --color-primary-t-5: #ffda6a;
+  --color-primary-t-6: #ffcd39;
+  --color-primary: #ffc107;
+  --color-primary-s-1: #cc9a06;
+  --color-primary-s-2: #997404;
+  --color-primary-s-3: #664d03;
+  --color-primary-s-4: #4d3a02;
+
+  --color-secondary-t-1: #d3f5f9;
+  --color-secondary-t-2: #bbedf3;
+  --color-secondary-t-3: #a4e5ec;
+  --color-secondary-t-4: #8cdde6;
+  --color-secondary-t-5: #5eccda;
+  --color-secondary-t-6: #2fbccd;
+  --color-secondary: #00acc1;
+  --color-secondary-s-1: #008a9a;
+  --color-secondary-s-2: #006774;
+  --color-secondary-s-3: #00454d;
+  --color-secondary-s-4: #00343a;
+
+  --color-error-t-1: #fbeaea;
+  --color-error-t-2: #f6d5d5;
+  --color-error-t-3: #f2c1c1;
+  --color-error-t-4: #edacac;
+  --color-error-t-5: #e58282;
+  --color-error-t-6: #dc5959;
+  --color-error: #d32f2f;
+  --color-error-s-1: #a92626;
+  --color-error-s-2: #7f1c1c;
+  --color-error-s-3: #541313;
+  --color-error-s-4: #3f0e0e;
+
+  --color-sell: #e53935;
+
+  --color-warning-t-1: #fff8ed;
+  --color-warning-t-2: #fff1db;
+  --color-warning-t-3: #ffe9ca;
+  --color-warning-t-4: #ffe2b8;
+  --color-warning-t-5: #ffd494;
+  --color-warning-t-6: #ffc571;
+  --color-warning: #ffb74d;
+  --color-warning-s-1: #d3973e;
+  --color-warning-s-2: #a7772e;
+  --color-warning-s-3: #7c561f;
+  --color-warning-s-4: #664617;
+
+  --color-success-t-1: #edf7ee;
+  --color-success-t-2: #dbefdc;
+  --color-success-t-3: #c9e7cb;
+  --color-success-t-4: #b7dfb9;
+  --color-success-t-5: #94cf96;
+  --color-success-t-6: #70bf73;
+  --color-success: #4caf50;
+  --color-success-s-1: #3d8c40;
+  --color-success-s-2: #2e6930;
+  --color-success-s-3: #1e4620;
+  --color-success-s-4: #173518;
+
+  --color-buy: #388e3c;
+
+  --color-neutral-title: #f5f5f5;
+  --color-neutral-primary-tx: #e0e0e0;
+  --color-neutral-sec-tx: #bdbdbd;
+  --color-neutral-dividers: #333333;
+  --color-neutral-sec-bc: #1a1919;
+  --color-neutral-primary-bc: #141414;
+}
