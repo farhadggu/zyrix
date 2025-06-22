@@ -72,3 +72,36 @@
   --color-neutral-sec-bc: #1a1919;
   --color-neutral-primary-bc: #141414;
 }
+
+@layer {
+  h1 {
+    @apply text-[54px];
+  }
+}
+
+@keyframes conic-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animated-conic-border {
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-conic-border::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  z-index: 0;
+  width: 120%;
+  height: 120%;
+  transform: translate(50%, 50%);
+  background: conic-gradient(from 180deg, transparent 0%, transparent 50%, var(--color-primary) 100%);
+  animation: conic-spin 3s linear infinite;
+}
