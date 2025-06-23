@@ -1,0 +1,12 @@
+{
+  "rootDir": "_icons",
+  "outDir": "_temp",
+  "filename": "zyrix",
+  "media": "min",
+  "className": "icon",
+  "css": { "filename": "icons" },
+  "demo": true,
+  "breakpoints": {
+    "lg": 1024
+  }
+}

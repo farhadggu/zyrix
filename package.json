@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "hooks:update": "npx simple-git-hooks",
+    "icons:copy": "cpx _temp/*.svg public && cpx _temp/*.css src/app",
+    "icons:generate": "npx sprite && npm run icons:copy && node scripts/icons.js && rimraf _temp -I"
   },
   "dependencies": {
     "clsx": "^2.1.1",

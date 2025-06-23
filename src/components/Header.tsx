@@ -17,6 +17,11 @@ const Header = () => {
         </div>
 
         <div className="flex items-center gap-x-4">
+          <div className="flex items-center gap-x-4">
+            <img src="/icons/icon-search.svg" alt="search" />
+            <img src="/icons/icon-bell.svg" alt="bell" />
+          </div>
+
           <Button>Sign up</Button>
           <Button variant="outline">Log in</Button>
         </div>
