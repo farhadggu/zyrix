@@ -1,3 +1,4 @@
+import CommunitySection from "@/components/CommunitySection";
 import FeatureSection from "@/components/FeatureSection";
 import HeroSection from "@/components/HeroSection";
 import MarketSection from "@/components/MarketSection";
@@ -15,6 +16,8 @@ export default function Home() {
         <FeatureSection />
 
         <MarketSection />
+
+        <CommunitySection />
       </div>
     </div>
   );

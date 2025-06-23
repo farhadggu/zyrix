@@ -79,6 +79,22 @@
   }
 }
 
+.layer-bg {
+  border-radius: 32px;
+  border-top: 0.5px solid rgba(51, 51, 51, 0);
+  border-right: 0.5px solid #33333300;
+  border-bottom: 0.5px solid #33333300;
+  background: linear-gradient(90deg, rgba(25, 25, 25, 0) 0%, #1e1e1e 100%);
+}
+
+.layer-bg-sec {
+  border-radius: 32px;
+  border-top: 0.5px solid rgba(51, 51, 51, 0);
+  border-right: 0.5px solid rgba(51, 51, 51, 0);
+  border-bottom: 0.5px solid rgba(51, 51, 51, 0);
+  background: linear-gradient(90deg, rgba(25, 25, 25, 0) 0%, #1e1e1e 100%);
+}
+
 @keyframes conic-spin {
   from {
     transform: rotate(0deg);
