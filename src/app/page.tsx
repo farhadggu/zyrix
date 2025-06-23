@@ -1,5 +1,6 @@
 import FeatureSection from "@/components/FeatureSection";
 import HeroSection from "@/components/HeroSection";
+import MarketSection from "@/components/MarketSection";
 
 export default function Home() {
   return (
