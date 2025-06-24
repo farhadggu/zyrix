@@ -3,7 +3,7 @@ import FeatureCard from "./FeatureCard";
 const FeatureSection = () => {
   return (
     <div className="grid grid-cols-12 gap-6">
-      <div className="col-span-4">
+      <div className="col-span-12 lg:col-span-4">
         <FeatureCard
           title="Gain Valuable"
           primaryTitle="Insight"
@@ -12,7 +12,7 @@ const FeatureSection = () => {
         />
       </div>
 
-      <div className="col-span-4">
+      <div className="col-span-12 lg:col-span-4">
         <FeatureCard
           title="Transactions"
           primaryTitle="Quick"
@@ -21,7 +21,7 @@ const FeatureSection = () => {
         />
       </div>
 
-      <div className="col-span-4">
+      <div className="col-span-12 lg:col-span-4">
         <FeatureCard
           title="Financial"
           primaryTitle="Quick"
@@ -30,7 +30,7 @@ const FeatureSection = () => {
         />
       </div>
 
-      <div className="bg-[#1c1c1c] rounded-4xl p-8 flex items-center justify-center gap-x-14 col-span-12">
+      <div className="bg-[#1c1c1c] rounded-2xl lg:rounded-4xl p-8 flex items-center justify-center gap-x-14 col-span-12 lg:flex-row flex-col">
         <div className="flex flex-col gap-y-2">
           <h3 className="text-2xl text-white">
             <span className="text-primary">Trusted </span>exchange platform

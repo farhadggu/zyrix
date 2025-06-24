@@ -15,7 +15,8 @@ const VARIANT = {
     "bg-transparent border border-primary text-primary text-neutral-title border border-neutral-title hover:bg-neutral-sec-bc",
 };
 
-const BASE_CLASS = "h-12 rounded-4xl px-8 flex items-center justify-center cursor-pointer transition-all duration-300";
+const BASE_CLASS =
+  "h-12 rounded-2xl lg:rounded-4xl px-8 flex items-center justify-center cursor-pointer transition-all duration-300 lg:text-base text-sm";
 
 const Button = ({ children, className, variant }: ButtonProps) => {
   return <button className={cn(VARIANT[variant ?? "primary"], BASE_CLASS, className)}>{children}</button>;

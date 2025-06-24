@@ -8,8 +8,8 @@ type FeatureCardProps = {
 
 const FeatureCard = ({ image, title, primaryTitle, description }: FeatureCardProps) => {
   return (
-    <div className="flex items-center justify-center p-8 gap-y-4 flex-col bg-[#1c1c1c] rounded-4xl !h-[500px]">
-      <img className="h-[344px] object-cover" src={image} alt="illustration" />
+    <div className="flex items-center justify-center p-8 gap-y-4 flex-col bg-[#1c1c1c] rounded-2xl lg:rounded-4xl !h-[500px]">
+      <img className="h-[344px] w-full object-cover" src={image} alt="illustration" />
 
       <div className="flex flex-col gap-y-2">
         <p className="text-neutral-title text-xl font-medium">

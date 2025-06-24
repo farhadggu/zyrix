@@ -75,7 +75,7 @@
 
 @layer {
   h1 {
-    @apply text-[54px];
+    @apply text-4xl lg:text-[54px];
   }
 }
 

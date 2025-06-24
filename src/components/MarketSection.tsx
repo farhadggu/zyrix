@@ -1,37 +1,37 @@
 const MarketSection = () => {
   return (
-    <div className="container mx-auto mt-[100px]">
-      <h3 className="text-[32px] text-white font-medium">
+    <div className="container mx-auto mt-10 lg:mt-[100px]">
+      <h3 className="text-3xl lg:text-[32px] text-white font-medium">
         <span className="text-primary">Market </span>Trend
       </h3>
 
-      <div className="bg-[#1c1c1c] rounded-4xl p-8 mt-8">
-        <table className="w-full border-separate border-spacing-y-8">
+      <div className="bg-[#1c1c1c] rounded-2xl lg:rounded-4xl lg:p-8 mt-8 overflow-x-auto">
+        <table className="w-full border-separate lg:border-spacing-y-8">
           <thead>
             <tr>
               <th className="text-neutral-primary-tx p-4 border-b border-neutral-dividers">
                 {" "}
-                <div className="flex items-start w-full">#</div>
+                <div className="max-lg:text-sm flex items-start w-full">#</div>
               </th>
               <th className="text-neutral-primary-tx p-4 border-b border-neutral-dividers">
                 {" "}
-                <div className="flex items-start w-full">Name</div>
+                <div className="max-lg:text-sm flex items-start w-full">Name</div>
               </th>
               <th className="text-neutral-primary-tx p-4 border-b border-neutral-dividers">
                 {" "}
-                <div className="flex items-start w-full">Price</div>
+                <div className="max-lg:text-sm flex items-start w-full">Price</div>
               </th>
               <th className="text-neutral-primary-tx p-4 border-b border-neutral-dividers">
                 {" "}
-                <div className="flex items-start w-full">24h Changes</div>
+                <div className="max-lg:text-sm flex items-start w-[90px] lg:w-full">24h Changes</div>
               </th>
               <th className="text-neutral-primary-tx p-4 border-b border-neutral-dividers">
                 {" "}
-                <div className="flex items-start w-full">Chart</div>
+                <div className="max-lg:text-sm flex items-start w-full">Chart</div>
               </th>
               <th className="text-neutral-primary-tx p-4 border-b border-neutral-dividers">
                 {" "}
-                <div className="flex items-start w-full">Action</div>
+                <div className="max-lg:text-sm flex items-start w-full">Action</div>
               </th>
             </tr>
           </thead>

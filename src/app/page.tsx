@@ -9,8 +9,8 @@ export default function Home() {
     <div>
       <HeroSection />
 
-      <div className="container mx-auto mt-[100px]">
-        <h2 className="text-neutral-title text-[40px] font-medium mb-8">
+      <div className="container mx-auto mt-12 lg:mt-[100px] max-lg:px-2">
+        <h2 className="text-neutral-title text-3xl lg:text-[40px] font-medium mb-8">
           <span className="text-primary">Powering </span>Your Crypto Journey
         </h2>
 

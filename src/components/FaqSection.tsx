@@ -4,18 +4,18 @@ import Drawer from "./Shared/Drawer";
 
 const FaqSection = () => {
   return (
-    <div className="mt-[100px] mx-auto container w-full">
-      <h3 className="text-white text-[32px] font-medium">
+    <div className="mt-10 lg:mt-[100px] mx-auto container w-full">
+      <h3 className="text-white text-2xl lg:text-[32px] font-medium">
         Frequently Asked <span className="text-primary">Questions</span>
       </h3>
 
       {Array.from({ length: 5 }).map((_, index) => (
         <Drawer
           key={index}
-          className="mt-6 p-8 rounded-4xl layer-bg even:mr-auto odd:ml-auto w-[calc(100%_-_104px)]"
+          className="mt-4 lg:mt-6 p-8 rounded-2xl lg:rounded-4xl layer-bg even:mr-auto odd:ml-auto w-full lg:w-[calc(100%_-_104px)]"
           trigger={(toggle, open) => (
             <div onClick={() => toggle()} className="w-full flex items-center justify-between cursor-pointer">
-              <span className="text-[22px] text-neutral-title font-medium">How does Zyrix work?</span>
+              <span className="text-lg lg:text-[22px] text-neutral-title font-medium">How does Zyrix work?</span>
 
               <img src="/arrow.svg" />
             </div>

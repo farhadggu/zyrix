@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-neutral-primary-bc w-full pt-16 pb-8">
       <div className="w-full mx-auto container">
-        <div className="flex items-center gap-x-8">
+        <div className="flex items-center gap-8 flex-col lg:flex-row">
           <img src="/logo.svg" />
 
           <div className="w-full h-px bg-[#7F7F7F]" />
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full mx-auto container flex items-start justify-center gap-20">
+      <div className="w-full mx-auto container flex items-start justify-center gap-20 flex-col lg:flex-row">
         <div className="flex flex-col gap-y-4">
           <span className="text-xl font-semibold text-white">Services</span>
 
