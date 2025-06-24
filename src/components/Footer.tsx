@@ -17,11 +17,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full mx-auto container flex items-start justify-center gap-20 flex-col lg:flex-row">
-        <div className="flex flex-col gap-y-4">
+      <div className="w-full mx-auto container flex items-start justify-center gap-20 flex-col lg:flex-row max-lg:mt-10">
+        <div className="flex-col gap-y-4 flex max-lg:items-center max-lg:justify-center max-lg:w-full">
           <span className="text-xl font-semibold text-white">Services</span>
 
-          <ul className="flex flex-col gap-y-4">
+          <ul className="flex flex-col max-lg:items-center max-lg:justify-center max-lg:w-full gap-y-4">
             <li className="text-neutral-primary-tx">Exchange</li>
             <li className="text-neutral-primary-tx">Spot</li>
             <li className="text-neutral-primary-tx">P2P Trading</li>
@@ -29,20 +29,20 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="flex flex-col gap-y-4">
+        <div className="flex flex-col gap-y-4 max-lg:items-center max-lg:justify-center max-lg:w-full">
           <span className="text-xl font-semibold text-white">Product</span>
 
-          <ul className="flex flex-col gap-y-4">
+          <ul className="flex flex-col max-lg:items-center max-lg:justify-center max-lg:w-full gap-y-4">
             <li className="text-neutral-primary-tx">Mobile App</li>
             <li className="text-neutral-primary-tx">Lending Pro</li>
             <li className="text-neutral-primary-tx">Reporting APP</li>
           </ul>
         </div>
 
-        <div className="flex flex-col gap-y-4">
+        <div className="flex flex-col gap-y-4 max-lg:items-center max-lg:justify-center max-lg:w-full">
           <span className="text-xl font-semibold text-white">Company</span>
 
-          <ul className="flex flex-col gap-y-4">
+          <ul className="flex flex-col max-lg:items-center max-lg:justify-center max-lg:w-full gap-y-4">
             <li className="text-neutral-primary-tx">About</li>
             <li className="text-neutral-primary-tx">Affiliates</li>
             <li className="text-neutral-primary-tx">Careers</li>
@@ -50,10 +50,10 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="flex flex-col gap-y-4">
+        <div className="flex flex-col gap-y-4 max-lg:items-center max-lg:justify-center max-lg:w-full">
           <span className="text-xl font-semibold text-white">Support</span>
 
-          <ul className="flex flex-col gap-y-4">
+          <ul className="flex flex-col max-lg:items-center max-lg:justify-center max-lg:w-full gap-y-4">
             <li className="text-neutral-primary-tx">Help Center</li>
             <li className="text-neutral-primary-tx">Contact Us</li>
             <li className="text-neutral-primary-tx">Status</li>
