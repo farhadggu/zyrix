@@ -13,7 +13,7 @@ const FaqSection = () => {
         <Drawer
           key={index}
           className="mt-4 lg:mt-6 p-8 rounded-2xl lg:rounded-4xl layer-bg even:mr-auto odd:ml-auto w-full lg:w-[calc(100%_-_104px)]"
-          trigger={(toggle, open) => (
+          trigger={(toggle) => (
             <div onClick={() => toggle()} className="w-full flex items-center justify-between cursor-pointer">
               <span className="text-lg lg:text-[22px] text-neutral-title font-medium">How does Zyrix work?</span>
 
