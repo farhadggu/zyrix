@@ -18,8 +18,8 @@ const Header = () => {
 
         <div className="flex items-center gap-x-1 lg:gap-x-4">
           <div className="items-center gap-x-4 hidden lg:flex">
-            <img src="/icons/icon-search.svg" alt="search" />
-            <img src="/icons/icon-bell.svg" alt="bell" />
+            <img src="/icons/search.svg" alt="search" />
+            <img src="/icons/earth.svg" alt="bell" />
           </div>
 
           <Button>Sign up</Button>
